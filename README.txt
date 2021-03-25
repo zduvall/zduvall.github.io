@@ -1,12 +1,7 @@
 Zachary Duvall personal portfolio site: https://zduvall.github.io/. 
 
-Built on template:
+Built on template: Dimension by HTML5 UP
 
-Dimension by HTML5 UP
+Icons: Font Awesome (fontawesome.io)
 
-Icons:
-	Font Awesome (fontawesome.io)
-
-Other:
-	jQuery (jquery.com)
-	Responsive Tools (github.com/ajlkn/responsive-tools)
+Other: jQuery (jquery.com), Responsive Tools (github.com/ajlkn/responsive-tools)
