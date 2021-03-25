@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const readableDate = date.toLocaleString('en-us', {
       timeZone: 'America/Denver',
     });
+    // const date = new Date().toLocaleString('en-us', {
+    //   timeZone: 'America/Denver',
+    // });
     const data = {
       name: name,
       email: email,
