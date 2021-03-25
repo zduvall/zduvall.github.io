@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const contactForm = document.getElementById('contact-form');
 
-  console.log("i'm here!");
-
   contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -24,8 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
       message: message,
       sent: readableDate,
     };
-
-    console.log(data);
 
     await fetch(
       'https://sheet.best/api/sheets/7b93a3e8-49c3-4b58-a004-936482aafc82',
