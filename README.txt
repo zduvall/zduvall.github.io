@@ -1,4 +1,4 @@
-Zachary Duvall - personal portfolio site: https://zduvall.github.io/. 
+Zachary Duvall: personal portfolio site: https://zduvall.github.io/. 
 
 - Built on template: Dimension by HTML5 UP
 - Icons: Font Awesome (fontawesome.io)
