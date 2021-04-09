@@ -1811,3 +1811,12 @@ body.is-preload #footer {
 .technologies {
   padding: 0.25rem;
 }
+
+.resume-wrapper {
+  height: 30rem;
+}
+
+.resume {
+  width: 100%;
+  height: 90%;
+}
