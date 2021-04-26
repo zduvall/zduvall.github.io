@@ -4,4 +4,4 @@ Personal portfolio site @ https://zduvall.github.io/
 - Icons: Font Awesome (fontawesome.io)
 - Other: jQuery (jquery.com) & Responsive Tools (github.com/ajlkn/responsive-tools)
 
-Thanks for checking it out!
+Thank you for checking it out!
