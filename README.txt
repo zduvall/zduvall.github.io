@@ -1,4 +1,4 @@
-Personal portfolio site @ https://zduvall.github.io/
+Personal portfolio site -- https://zduvall.github.io/
 
 Tools:
 - Template: Dimension by HTML5 UP (https://html5up.net)
