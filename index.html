@@ -1,101 +1,701 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
   <head>
-    <meta charset="UTF-8" />
+    <title>Zachary Duvall - Portolio</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+
+    <meta
+      name="image"
+      property="og:image"
+      content="https://ztd-portfolio-site.s3-us-west-1.amazonaws.com/portfolio-site-preview-small.png"
+    />
     <meta
       name="description"
-      content="In a surprising development, Sedaro is acquired by Chuck E. Cheese to revolutionize aerospace simulations with interactive, gamified elements."
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      property="og:title"
-      content="Sedaro Acquired by Chuck E. Cheese in Bold Move to Gamify Aerospace Simulations"
-    />
-    <meta
       property="og:description"
-      content="In a surprising development, Sedaro is acquired by Chuck E. Cheese to revolutionize aerospace simulations with interactive, gamified elements."
+      content="Personal Portfolio site for Zachary Duvall, full stack software engineer"
     />
-    <meta
-      property="og:image"
-      content="https://zduvall.github.io/space-news-sedaro-april-2025/chuckecheese.jpg"
-    />
-    <meta property="og:url" content="www.spacenews.com/2025/4/chuck-e-sedaro" />
-    <link rel="icon" href="https://zduvall.github.io/space-news-sedaro-april-2025/space.png" />
-    <title>Sedaro Acquired by Chuck E. Cheese - Space News</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Optional: Google Fonts for enhanced typography -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="author" content="Zachary Duvall" />
+    <meta name="og:title" content="Zachary Duvall - Portfolio" />
+
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script defer type="text/javascript" src="index.js"></script>
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
   </head>
-  <body>
-    <header>
-      <div class="header-content">
-        <h1>Space News</h1>
-        <img src="logo.avif" alt="Sedaro Logo" class="logo" />
-      </div>
-    </header>
-
-    <main>
-      <article class="news-article">
-        <h2>Sedaro Acquired by Chuck E. Cheese in Bold Move to Gamify Aerospace Simulations</h2>
-        <p class="byline">By Space News Staff | April 1, 2025</p>
-        <img src="chuckecheese.jpg" alt="Chuck E. Cheese Headquarters" class="article-image" />
-        <p>
-          In an unexpected yet visionary move, Sedaro -- a leader in aerospace simulation -- has
-          been officially acquired by family entertainment giant Chuck E. Cheese. The acquisition is
-          set to merge high-fidelity digital twin technology with innovative interactive
-          entertainment experiences.
-        </p>
-        <p>
-          Company executives from both organizations emphasized their shared commitment to advancing
-          technology while enhancing user engagement. “Our goal has always been to push the
-          boundaries of simulation, and this partnership opens up new frontiers in the world of
-          interactive physics-based modeling,” stated Robbie Robertson, CEO of Sedaro.
-        </p>
-        <p>
-          Chuck E. Cheese CTO, Amanda Reynolds, echoed this enthusiasm, positing, "By combining
-          Sedaro's cutting-edge aerospace simulations with our expertise in interactive
-          entertainment, we're creating a future where precision engineering meets the thrill of
-          arcade-style engagement. We believe simulation and play have more in common than people
-          realize."
-        </p>
-        <p>
-          Industry experts predict that this collaboration may bring groundbreaking changes to both
-          aerospace engineering and the entertainment sector. Rumors suggest that Chuck E. Cheese's
-          signature ticket-based rewards system could be integrated into future simulations,
-          allowing mission successes to yield redeemable tokens.
-        </p>
-        <p>
-          Sources confirm that a pilot program is already has already been in motion testing how
-          orbital mechanics can be enhanced with real-world skee-ball trajectory physics. As part of
-          data calibration, Sedaro employees will soon be invited to participate in quarterly
-          skee-ball tournaments where outcomes will factor into performance reviews.
-        </p>
-        <img src="skee-ball.jpg" alt="Skee-Ball Machine" class="article-image" />
-
-        <p>
-          The acquisition, valued at approximately $2.3 billion in cash and prize tickets, was
-          unanimously approved by both companies' boards of directors. Under the terms of the
-          agreement, Sedaro will operate as an independent subsidiary within the Chuck E. Cheese
-          Interactive Division, with continued focus on aerospace simulation and digital twin
-          technology. The transaction is expected to close in the coming weeks, pending regulatory
-          approval and final calibration of the skee-ball physics engine.
-        </p>
-        <div class="cta">
-          <p>
-            Stay tuned for further updates and prepare for an exciting new era in aerospace
-            simulation!
-          </p>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <div class="logo">
+          <span class="icon solid fa-laptop-code"></span>
         </div>
-      </article>
-    </main>
+        <div class="content">
+          <div class="inner">
+            <h1>Zachary Duvall</h1>
+            <p>
+              Full stack software engineer <br />
+              Influencing the intersection of social impact & technology <br />
+              Creating positive change in individuals & organizations <br />
+            </p>
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!--<li><a href="#elements">Elements</a></li>-->
+          </ul>
+        </nav>
+      </header>
 
-    <footer>
-      <p>&copy; 2025 Space News | All rights reserved</p>
-    </footer>
+      <!-- Main -->
+      <div id="main">
+        <!-- Intro -->
+        <article id="intro">
+          <h2 class="major">Intro</h2>
+          <span class="image main"
+            ><img src="images/pic01.jpg" alt="profile picture"
+          /></span>
+          <p>
+            I've always been fascinated by patterns. Patterns can be found in 
+            music, which led me from elementary-school concert band, to 
+            high-school garage band, college marching band, and a bluegrass and 
+            jazz band. Patterns also got me into languages, including German, 
+            Chinese, Portuguese and others. I studied patterns in people and 
+            cultures during a master degree in social work, 8-year career as a 
+            therapist, volunteering in emergency mental health, and 
+            visiting/living in dozens of foreign countries for a total of over 3 
+            years. I love communicating ideas and solving problems through the 
+            patterns of music, language, and human behavior!
+          </p>
+          <p>
+            It turns out, I've also always used patterns in some form of coding 
+            on the side... starting with the card game "21" on my graphing 
+            calculator in 11th grade. This gave way to blogs, dynamic 
+            spreadsheet expressions, business websites, and volunteering as 
+            'Webmaster' in a non-profit organization for over 5 years. 
+            Ultimately, I decided to devote myself to developing 
+            <a href="#skills"> skills</a> and using patterns in coding. In March 
+            2021, I completed a 6-month intensive full-stack coding bootcamp at 
+            App Academy. During the program, I realized my place as a leader 
+            among my peers. I consistently had classmates seeking my help with 
+            problem solving and debugging, was voted scrum master on a group 
+            project, and was given the nickname "Zacherberg".
+          </p>
+            I developed <a href="#work">4 full-stack web applications</a> using 
+            technologies such as Javascript, Python, React / Redux, Flask, 
+            SQLAlchemy, Express, Sequelize, PostgreSQL, HTML / CSS and others. I 
+            went out of my way to voluntarily learn and incorporate other 
+            frameworks and APIs such as AWS S3, Google Maps API, Chart.js, and 
+            the Stripe API. I’m even in the process of setting up an LLC and 
+            monetizing my app <a href="#work">eDOT</a> designed to help 
+            therapists diagnose and track client progress over time. 
+          </p>
+          <p>    
+            Feel free to check out some of my <a href="#work"> work</a>, review 
+            my <a href='#resume'>resume</a>, and <a href="#contact">get in touch</a>!
+          </p>
+        </article>
+
+        <!-- Work -->
+        <article id="work">
+          <h2 class="major">Work</h2>
+          <h3>
+            <!-- <a href="https://edot.herokuapp.com/" target="_blank">eDOT</a> -->
+            eDOT
+          </h3>
+          <span class="image main">
+            <!-- <a href="https://edot.herokuapp.com/" target="_blank"> -->
+              <img
+                src="https://dot-aws.s3-us-west-1.amazonaws.com/edot-preview-small.png"
+                alt="eDOT Preview"
+              />
+            </a>
+          </span>
+          <p>
+            Electronic Diagnostic and Outcome Testing for therapists and other
+            helping professionals. A functioning Software as a Service, built 
+            using Node.js, React, Redux, Flask, SQL-Alchemy, Chart.js, Stripe 
+            API, and more. 
+            <!-- Checkout the <a href="https://youtu.be/56xb_IM6Nfs" target="_blank">demo video</a>. -->
+          </p>
+          <h3>
+            <!-- <a href="https://toiletsurfing.herokuapp.com/" target="_blank"> -->
+            <a href="https://github.com/zduvall/Toilet-Surfing" target="_blank">
+              Toilet Surfing
+            </a>
+          </h3>
+          <span class="image main">
+            <!-- <a href="https://toiletsurfing.herokuapp.com" target="_blank"> -->
+            <a href="https://github.com/zduvall/Toilet-Surfing" target="_blank">
+              <img
+                src="https://toilet-surfing.s3-us-west-1.amazonaws.com/toilet-surfing-preview.png"
+                alt="Toilet Surfing Preview"
+              />
+            </a>
+          </span>
+          <p>
+            Where chill people share their toilets with other chill people,
+            inspired by the giving and laid-back culture of couch surfing and by
+            good vibes of surfers in general. A full stack solo project using
+            Node.js, React, Redux, Express, AWS S3, React Google Maps API and
+            more. Checkout the
+            <a href="https://github.com/zduvall/Toilet-Surfing" target="_blank">
+              github repo</a
+            >.
+          </p>
+          <h3>
+            <a href="https://zduvall.github.io/Whac-A-Mole/" target="_blank"
+              >Whac-A-Mole</a
+            >
+          </h3>
+          <span class="image main">
+            <a href="https://zduvall.github.io/Whac-A-Mole/" target="_blank">
+              <img
+                src="https://whac-a-mole.s3-us-west-1.amazonaws.com/whac-a-mole-preview.png"
+                alt="Whac-A-Mole Preview"
+              />
+            </a>
+          </span>
+          <p>
+            The classic game of Whac-A-Mole built using HTML, JavaScript, and 
+            CSS. Challenge yourself on easy mode or hard! Checkout the
+            <a href="https://github.com/zduvall/Whac-A-Mole" target="_blank">
+              github repo</a
+            >.
+          </p>
+          <h3>
+            <!-- <a href="https://pairyopet.herokuapp.com/" target="_blank"> -->
+            <a href="https://github.com/markhv-code/pair-yo-pet" target="_blank">
+              Pair Yo' Pet
+            </a>
+          </h3>
+          <span class="image main">
+            <!-- <a href="https://pairyopet.herokuapp.com" target="_blank"> -->
+            <a href="https://github.com/markhv-code/pair-yo-pet" target="_blank">
+              <img
+                src="https://pair-yo-pet-aws.s3-us-west-1.amazonaws.com/pre-saved-images/pyp-preview.png"
+                alt="Pair Yo' Pet Preview"
+                href="https://github.com/markhv-code/pair-yo-pet"
+              />
+            </a>
+          </span>
+          <p>
+            From play dates to soul mates, your pet will never be lonely again.
+            A full stack group project using React, Redux, Flask, SQL-Alchemy,
+            AWS S3 and more. Checkout the
+            <a
+              href="https://github.com/markhv-code/pair-yo-pet"
+              target="_blank"
+            >
+              github repo</a
+            >.
+          </p>
+          <h3>
+            <!-- <a href="https://goodtrees.herokuapp.com/" target="_blank"> -->
+            <a href="https://github.com/zduvall/GoodTrees" target="_blank">
+              Good Trees
+            </a>
+          </h3>
+          <span class="image main">
+            <!-- <a href="https://goodtrees.herokuapp.com/" target="_blank"> -->
+            <a href="https://github.com/zduvall/GoodTrees" target="_blank">
+              <img
+                src="https://good-trees.s3-us-west-1.amazonaws.com/GoodTrees-preview.png"
+                alt="Good Trees Preview"
+                href="https://github.com/zduvall/GoodTrees"
+                target="_blank"
+              />
+            </a>
+          </span>
+          <p>
+            For those who love the climb and the view from the top. A full stack
+            group project using Node.js, Pug, Express, PostgreSQL and more.
+            Checkout the
+            <a href="https://github.com/zduvall/GoodTrees" target="_blank">
+              github repo</a
+            >.
+          </p>
+          <h3>
+            <a href="https://zduvall.github.io/tic-tac-toe-with-functioning-AI/" target="_blank"
+              >Tic Tac Toe with functioning AI</a
+            >
+          </h3>
+          <span class="image main">
+            <a href="https://zduvall.github.io/tic-tac-toe-with-functioning-AI/" target="_blank">
+              <img
+                src="https://tic-tac-toe-aws.s3.amazonaws.com/tic-tac-toe-preview.png"
+                alt="Tic-Tac-Toe Preview"
+              />
+            </a>
+          </span>
+          <p>
+            My earliest coding project published live. Built using HTML, CSS,
+            and Javascript. Play another person, against the AI, or watch the AI
+            play itself. Check out the
+            <a href="https://github.com/zduvall/tic-tac-toe-with-functioning-AI" target="_blank">
+              github repo</a
+            >.
+          </p>
+        </article>
+
+        <!-- Resume -->
+        <article id="resume">
+          <h2 class="major">Resume</h2>
+          <div class='resume-wrapper'>
+            <iframe 
+              class="resume" 
+              src="https://docs.google.com/document/d/e/2PACX-1vTwTPTqYJilV3IT-FTsB1w_Uh36bB2E7s-L7Btj-k2Okqj6d1RpCvFybwGDCnQWNAHQhO1KpndcMgOo/pub?embedded=true"
+            ></iframe>
+            <p>
+              <a 
+                href='https://docs.google.com/document/d/1qniP5WEKolf3mHRb6TKMiN3Rg4E94MjGoQjFYhBSW_k/export?format=pdf'
+              >Download PDF</a>
+            </p>
+          </div>
+        </article>
+
+        <!-- Skills -->
+        <article id="skills">
+          <h2 class="major">Skills</h2>
+          <div class="technologies-wrapper">
+            <p class="icon brands fa-js technologies">&nbsp;&nbsp;JavaScript</p>
+            <p class="icon brands fa-node-js technologies">
+              &nbsp;&nbsp;Node.js
+            </p>
+            <p class="icon brands fa-python technologies">&nbsp;&nbsp;Python</p>
+            <p class="icon brands fa-react technologies">
+              &nbsp;&nbsp;React.js
+            </p>
+            <p class="icon brands fa-skyatlas technologies">
+              &nbsp;&nbsp;Redux
+            </p>
+            <p class="icon brands fa-affiliatetheme technologies">
+              &nbsp;&nbsp;Flask
+            </p>
+            <p class="icon brands fa-css3-alt technologies">&nbsp;&nbsp;CSS</p>
+            <p class="icon brands fa-git-alt technologies">&nbsp;&nbsp;Git</p>
+            <p class="icon solid fa-server technologies">
+              &nbsp;&nbsp;Express.js
+            </p>
+            <p class="icon brands fa-html5 technologies">&nbsp;&nbsp;HTML</p>
+            <p class="icon brands fa-evernote technologies">
+              &nbsp;&nbsp;PostgreSQL
+            </p>
+            <p class="icon solid fa-database technologies">&nbsp;&nbsp;SQL</p>
+            <p class="icon solid fa-flask technologies">
+              &nbsp;&nbsp;SQLAlchemy
+            </p>
+            <p class="icon brands fa-docker technologies">&nbsp;&nbsp;Docker</p>
+            <p class="icon solid fa-cube technologies">&nbsp;&nbsp;Sequelize</p>
+            <p class="icon brands fa-markdown technologies">&nbsp;&nbsp;Markdown</p>
+            <p class="icon brands fa-aws technologies">&nbsp;&nbsp;AWS S3</p>
+            <p class="icon solid fa-map-marked-alt technologies">&nbsp;&nbsp;G-Maps API</p>
+            <p class="icon brands fa-cc-stripe technologies">&nbsp;&nbsp;Stripe API</p>
+            <p class="icon solid fa-chart-line technologies">&nbsp;&nbsp;ChartJS API</p>
+          </div>
+        </article>
+
+        <!-- Contact -->
+        <article id="contact">
+          <h2 class="major">Contact</h2>
+          <form id="contact-form">
+            <div class="fields">
+              <div class="field half">
+                <label for="name">Name</label>
+                <input required type="text" name="name" id="name" />
+              </div>
+              <div class="field half">
+                <label for="email">Email</label>
+                <input required type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea required name="message" id="message" rows="4"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li>
+                <input type="submit" value="Send" class="primary" />
+              </li>
+              <li><input type="reset" value="Reset" /></li>
+            </ul>
+          </form>
+          <ul class="icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/zachary-duvall/"
+                target="_blank"
+                title="Linked In"
+                class="icon brands fa-linkedin-in"
+                ><span class="label">LinkedIn</span></a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/zduvall"
+                target="_blank"
+                title="Github"
+                class="icon brands fa-github"
+                ><span class="label">Github</span></a
+              >
+            </li>
+            <!-- <li>
+              <a
+                href="https://angel.co/u/zachary-duvall"
+                target="_blank"
+                title="Angel List"
+                class="icon brands fa-angellist"
+                ><span class="label">Angel List</span></a
+              >
+            </li> -->
+            <!-- <li>
+              <a
+                href="mailto:email@domain.com?subject='Hello Zach'"
+                target="_blank"
+                title="Angel List"
+                class="icon solid fa-envelope"
+                ><span class="label">Angel List</span></a
+              >
+            </li> -->
+          </ul>
+        </article>
+
+        <!-- Elements -->
+        <article id="elements">
+          <h2 class="major">Elements</h2>
+
+          <section>
+            <h3 class="major">Text</h3>
+            <p>
+              This is <b>bold</b> and this is <strong>strong</strong>. This is
+              <i>italic</i> and this is <em>emphasized</em>. This is
+              <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+              This is <u>underlined</u> and this is code:
+              <code>for (;;) { ... }</code>. Finally,
+              <a href="#">this is a link</a>.
+            </p>
+            <hr />
+            <h2>Heading Level 2</h2>
+            <h3>Heading Level 3</h3>
+            <h4>Heading Level 4</h4>
+            <h5>Heading Level 5</h5>
+            <h6>Heading Level 6</h6>
+            <hr />
+            <h4>Blockquote</h4>
+            <blockquote>
+              Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+              sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+              faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+              ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+              faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+            </blockquote>
+            <h4>Preformatted</h4>
+            <pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+          </section>
+
+          <section>
+            <h3 class="major">Lists</h3>
+
+            <h4>Unordered</h4>
+            <ul>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Sagittis adipiscing.</li>
+              <li>Felis enim feugiat.</li>
+            </ul>
+
+            <h4>Alternate</h4>
+            <ul class="alt">
+              <li>Dolor pulvinar etiam.</li>
+              <li>Sagittis adipiscing.</li>
+              <li>Felis enim feugiat.</li>
+            </ul>
+
+            <h4>Ordered</h4>
+            <ol>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Etiam vel felis viverra.</li>
+              <li>Felis enim feugiat.</li>
+              <li>Dolor pulvinar etiam.</li>
+              <li>Etiam vel felis lorem.</li>
+              <li>Felis enim et feugiat.</li>
+            </ol>
+            <h4>Icons</h4>
+            <ul class="icons">
+              <li>
+                <a href="#" class="icon brands fa-twitter"
+                  ><span class="label">Twitter</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-facebook-f"
+                  ><span class="label">Facebook</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-instagram"
+                  ><span class="label">Instagram</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="icon brands fa-github"
+                  ><span class="label">Github</span></a
+                >
+              </li>
+            </ul>
+
+            <h4>Actions</h4>
+            <ul class="actions">
+              <li><a href="#" class="button primary">Default</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+            <ul class="actions stacked">
+              <li><a href="#" class="button primary">Default</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="major">Table</h3>
+            <h4>Default</h4>
+            <div class="table-wrapper">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Item One</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Two</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Three</td>
+                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Four</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Five</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td>100.00</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+
+            <h4>Alternate</h4>
+            <div class="table-wrapper">
+              <table class="alt">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Item One</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Two</td>
+                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Three</td>
+                    <td>Morbi faucibus arcu accumsan lorem.</td>
+                    <td>29.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Four</td>
+                    <td>Vitae integer tempus condimentum.</td>
+                    <td>19.99</td>
+                  </tr>
+                  <tr>
+                    <td>Item Five</td>
+                    <td>Ante turpis integer aliquet porttitor.</td>
+                    <td>29.99</td>
+                  </tr>
+                </tbody>
+                <tfoot>
+                  <tr>
+                    <td colspan="2"></td>
+                    <td>100.00</td>
+                  </tr>
+                </tfoot>
+              </table>
+            </div>
+          </section>
+
+          <section>
+            <h3 class="major">Buttons</h3>
+            <ul class="actions">
+              <li><a href="#" class="button primary">Primary</a></li>
+              <li><a href="#" class="button">Default</a></li>
+            </ul>
+            <ul class="actions">
+              <li><a href="#" class="button">Default</a></li>
+              <li><a href="#" class="button small">Small</a></li>
+            </ul>
+            <ul class="actions">
+              <li>
+                <a href="#" class="button primary icon solid fa-download"
+                  >Icon</a
+                >
+              </li>
+              <li>
+                <a href="#" class="button icon solid fa-download">Icon</a>
+              </li>
+            </ul>
+            <ul class="actions">
+              <li><span class="button primary disabled">Disabled</span></li>
+              <li><span class="button disabled">Disabled</span></li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 class="major">Form</h3>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field half">
+                  <label for="demo-name">Name</label>
+                  <input
+                    type="text"
+                    name="demo-name"
+                    id="demo-name"
+                    value=""
+                    placeholder="Jane Doe"
+                  />
+                </div>
+                <div class="field half">
+                  <label for="demo-email">Email</label>
+                  <input
+                    type="email"
+                    name="demo-email"
+                    id="demo-email"
+                    value=""
+                    placeholder="jane@untitled.tld"
+                  />
+                </div>
+                <div class="field">
+                  <label for="demo-category">Category</label>
+                  <select name="demo-category" id="demo-category">
+                    <option value="">-</option>
+                    <option value="1">Manufacturing</option>
+                    <option value="1">Shipping</option>
+                    <option value="1">Administration</option>
+                    <option value="1">Human Resources</option>
+                  </select>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-low"
+                    name="demo-priority"
+                    checked
+                  />
+                  <label for="demo-priority-low">Low</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="radio"
+                    id="demo-priority-high"
+                    name="demo-priority"
+                  />
+                  <label for="demo-priority-high">High</label>
+                </div>
+                <div class="field half">
+                  <input type="checkbox" id="demo-copy" name="demo-copy" />
+                  <label for="demo-copy">Email me a copy</label>
+                </div>
+                <div class="field half">
+                  <input
+                    type="checkbox"
+                    id="demo-human"
+                    name="demo-human"
+                    checked
+                  />
+                  <label for="demo-human">Not a robot</label>
+                </div>
+                <div class="field">
+                  <label for="demo-message">Message</label>
+                  <textarea
+                    name="demo-message"
+                    id="demo-message"
+                    placeholder="Enter your message"
+                    rows="6"
+                  ></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li>
+                  <input type="submit" value="Send Message" class="primary" />
+                </li>
+                <li><input type="reset" value="Reset" /></li>
+              </ul>
+            </form>
+          </section>
+        </article>
+      </div>
+
+      <!-- Footer -->
+      <footer id="footer">
+        <p class="copyright">
+          Design: <a href="https://html5up.net">HTML5 UP</a>.
+        </p>
+      </footer>
+    </div>
+
+    <!-- BG -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
